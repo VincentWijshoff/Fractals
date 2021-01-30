@@ -1,5 +1,7 @@
 # Fractals
 
+Copyright 2021 Vincent Wijshoff
+
 This a javascript project in which you can create different types of fractals. There are 2 types off options.
 
 ## Fractal type

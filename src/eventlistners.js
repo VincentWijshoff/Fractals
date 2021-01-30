@@ -1,3 +1,4 @@
+// Copyright 2021 Vincent Wijshoff
 document.getElementById("startalgorithm1").onclick = () => {
     document.getElementById("mainoption").innerHTML = document.getElementById("startalgorithm1").textContent;    
 };
