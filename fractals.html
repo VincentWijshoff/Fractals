@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fractals visualisation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link id="cssTheme" type="text/css" rel="stylesheet" href="fractals.css"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="public/styling/c_icon.png"/> -->
+    <link rel="icon" href="images/triangle.png">
+  </head>
+  <body>
+    <div id='navbarDiv'>
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <a id="refreshButton" class="navbar-brand" href="#">Fractals</a>
+         </div>
+         <ul class="nav navbar-nav">
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="mainoption">Choose fractal
+             <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li id='startalgorithm1'><a href="#">Triangular itteration</a></li>
+               <li id='startalgorithm2'><a href="#">Reverse triangular itteration</a></li>
+               <li id='startalgorithm3'><a href="#">Tree</a></li>
+             </ul>
+           </li>
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="additionaloption">Start shape
+             <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li id='startButtonOption1'><a href="#">Triangle</a></li>
+               <li id='startButtonOption2'><a href="#">Square</a></li>
+               <li id='startButtonOption3'><a href="#">Octagon</a></li>
+             </ul>
+           </li>
+           <li id='startButtonextra'><a href="#">Reset button</a></li>
+           <li id='startButtonStart2'><button id="actualStartButton2" class="btn btn-default navbar-btn" type="button">Create!</button></li>
+           <li id='startButtonStart'><button id="actualStartButton" class="btn btn-default navbar-btn" type="button">Itterate!</button></li>
+         </ul>
+       </div>
+     </nav>
+   </div>
+    <div id='mainGrid'>
+      <canvas id="window" width="1920" height="1080"></canvas>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='src/eventlistners.js'></script>
+  <script src='src/main.js'></script>
+</html>
